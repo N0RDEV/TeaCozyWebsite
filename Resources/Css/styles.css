@@ -1,0 +1,350 @@
+body {
+  background-color: black;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  opacity: 0.9;
+  min-height: 100vh;
+}
+
+.logo {
+  color: seashell;
+  height: 50px;
+  position: relative;
+  left: 24px;
+  top: 5px;
+}
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 103%;
+  margin-left: -10px;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+.header h1 {
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 20px;
+}
+
+  ul li {
+    color: seashell;
+    position: relative;
+    bottom: 12px;
+    right: 70px;
+    display: flex;
+    text-decoration: underline;
+  }
+
+/*
+.header-text {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  color: seashell;
+  gap: 25px;
+  text-decoration: underline;
+  position: relative;
+  left: 1490px;
+  top: 22px;
+  font-size: 15px; /*
+}
+
+
+
+
+.header-text h2 {
+  margin: 0;
+}
+
+/* .main-image { 
+  position: relative;
+  width: 100%;
+  top: 70px;
+  z-index: 1;
+  text-align: center;
+  left: 40px;
+  height: 700px;
+  object-fit: cover;
+  
+} */
+/*
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.header-text h2 {
+  color: seashell;
+  margin: 0;
+} 
+*/
+.main-image {
+  position: relative;
+  bottom: 250px;
+  z-index: 1;
+  height: 876px;
+  object-fit: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  height: 79px;
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+  margin: 0;
+  left: 10px;
+}
+
+.container {
+  color: seashell;
+  position: relative;
+  bottom: 130px;
+  padding: 100px;
+}
+
+h1, h2 {
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+}
+
+.sub-container {
+  color: seashell;
+  position: relative;
+  bottom: 130px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.sub-container img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  flex: 0 0 25%;
+  order: 1;
+  position: relative;
+  bottom: 80px;
+  padding-bottom: 60px;
+}
+
+.names {
+  position: relative;
+  bottom: 280px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.berry {
+  position: relative;
+  right: 260px;
+}
+
+.run {
+  position: relative;
+  right: 300px;
+}
+
+.donut {
+  position: relative;
+  left: 260px;
+}
+
+.border {
+  background-color: black;
+  position: relative;
+  top: 400px;
+  z-index: 2;
+  color: black;
+  text-align: center;
+  height: 130px;
+}
+
+.b1 {
+  color: seashell;
+  z-index: 3;
+  position: relative;
+  top: 240px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.b2 {
+  color: seashell;
+  z-index: 3;
+  position: relative;
+  top: 235px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.ave {
+  bottom: 285px;
+  color: seashell;
+  position: relative;
+  text-align: center;
+  right: 240px;
+}
+
+.bed {
+  bottom: 340px;
+  color: seashell;
+  position: relative;
+  text-align: center;
+  left: 250px;
+}
+
+.sub-image {
+  position: relative;
+  top: -100px;
+  z-index: 1;
+  height: 876px;
+  object-fit: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  bottom: 100px;
+}
+
+.box1 {
+  position: relative;
+  text-align: center;
+  bottom: -90px;
+  line-height: 70px;
+  z-index: 2;
+}
+
+.box2 {
+  position: relative;
+  text-align: center;
+  bottom: -90px;
+  line-height: 70px;
+  z-index: 2;
+}
+
+.box3 {
+  position: relative;
+  text-align: center;
+  bottom: -90px;
+  line-height: 70px;
+  z-index: 2;
+}
+
+.box4 {
+  position: relative;
+  text-align: center;
+  bottom: -56px;
+  line-height: 60px;
+  z-index: 1;
+  background-color: black;
+  width: 400px;
+  left: 265px;
+  height: 350px;
+}
+
+.box5 {
+  position: relative;
+  text-align: center;
+  bottom: 320px;
+  line-height: 60px;
+  z-index: 1;
+  background-color: black;
+  width: 400px;
+  left: 720px;
+  height: 350px;
+}
+
+.box6 {
+  position: relative;
+  text-align: center;
+  bottom: 700px;
+  line-height: 60px;
+  z-index: 1;
+  background-color: black;
+  width: 400px;
+  left: 1180px;
+  height: 350px;
+}
+
+.header2 h6 {
+  color: seashell;
+  position: relative;
+  font-size: 45px;
+  bottom: 20px;
+  z-index: 4;
+  text-align: center;
+  right: 25px;
+}
+
+div {
+  margin: 0;
+  height: 0;
+}
+
+footer {
+  margin: 0;
+  height: 0;
+}
+
+footer h1 {
+  margin: 0;
+  height: 0;
+  color: seashell;
+  position: relative;
+  bottom: 450px;
+}
+
+footer h5 {
+  color: seashell;
+  text-align: center;
+  position: relative;
+  bottom: 390px;
+  line-height: 80px;
+}
+
+footer h4 {
+  color: seashell;
+  text-align: left;
+  position: relative;
+  bottom: 290px;
+  left: 20px;
+}
